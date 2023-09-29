@@ -1,25 +1,25 @@
 var allGames = {
 	'hfov': {
 		"hFov": {
-			decimals: 0,
+			decimals: 4,
 			factor: 1
 		},
 		"Project CARS 1/2": {
 			min: 35,
 			max: 180,
-			decimals: 0,
+			decimals: 4,
 			factor: 1
 		},
 		"European & American Truck Simulator": {
 			min: 35,
 			max: 180,
-			decimals: 0,
+			decimals: 4,
 			factor: 1
 		},
 		"RaceRoom Racing Experience" : {
 			min: 35,
 			max: 180,
-			decimals: 1,
+			decimals: 4,
 			factor: 1,
 		},
 	},
@@ -35,7 +35,7 @@ var allGames = {
 		"F1 2016/2017/+": { // https://www.reddit.com/r/F1Game/comments/7x0of9/codemasters_f1_20162017_fov_slider/
 			min: -1,
 			max: +1,
-			decimals: 2,
+			decimals: 4,
 			factor: 1,
 			base: 77, // Base values for other cameras: T-Cam + Nose: 82, T-Cam with offset: 85
 			increment: 2,
@@ -44,25 +44,25 @@ var allGames = {
 	},
 	'vfov' : {
 		"vFov": {
-			decimals: 0,
+			decimals: 4,
 			factor: 1
 		},
 		"Assetto Corsa, Assetto Corsa Competizione": {
 			min: 10,
 			max: 120,
-			decimals: 1,
+			decimals: 4,
 			factor: 1
 		},
 		"rFactor 1 & 2, GSC, GSCE, SCE, AMS (ISI Engine)": {
 			min: 10,
 			max: 100,
-			decimals: 0,
+			decimals: 4,
 			factor: 1
 		},
 		"DiRT Rally 1/2, GRID Autosport": {
 			min: 10,
 			max: 115,
-			decimals: 0,
+			decimals: 4,
 			factor: 2
 		}
 	},
@@ -70,7 +70,7 @@ var allGames = {
 		"GTR2" : {
 			min: 0.5,
 			max: 1.5,
-			decimals: 1,
+			decimals: 4,
 			factor: 1,
 			baseSingle: 58,
 			baseTriple: 58
@@ -78,7 +78,7 @@ var allGames = {
 		"Race07" : {
 			min: 0.4,
 			max: 1.5,
-			decimals: 1,
+			decimals: 4,
 			factor: 1,
 			baseSingle: 58,
 			baseTriple: 58
@@ -88,7 +88,7 @@ var allGames = {
 		"Triple Screen Angle" : {
 			min: 10,
 			max: 180,
-			decimals: 2,
+			decimals: 4,
 			factor: 1
 		}
 	}
